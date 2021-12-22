@@ -2,10 +2,12 @@ In this project, we performed Web browser UI automation testing on the United ai
 
 
 Writing our test cases with Gerkin language in cucumber feature files increases the readability and reusability.
+
 ![image](https://user-images.githubusercontent.com/91909656/147024197-b1606831-9040-423b-b3d3-a90dd9157b69.png)
 
 
 Here is an example of the framework.
+
 ![image](https://user-images.githubusercontent.com/91909656/147024273-194a3cc1-1bcf-479f-9b3c-54c7ec85ae1c.png)
 
 
@@ -15,6 +17,7 @@ once again increased the readability, reduces the code duplication, and improves
 ![image](https://user-images.githubusercontent.com/91909656/147024301-0143fd0f-162c-4f54-9de5-74876bd1c361.png)
 
 And here is the full structure of the project.
+
 ![image](https://user-images.githubusercontent.com/91909656/147024323-68307f88-9d5b-43e9-80cc-4a578e175afd.png)
 
 Runner class with CucumberOptions shown below acts as a link between the step definition class and the feature files, which allows us to run the project entirely, or multiple feature files by giving tag names, also generating reports, and more.
